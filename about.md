@@ -1,5 +1,5 @@
 ---
-title: About Victus
+title: About
 layout: default
 ---
 

@@ -1,3 +1,6 @@
+title: Victus # site title
+description: A Jekyll theme # description added to the head
+
 name: Victus
 
 baseurl: "" # the subpath of your site, e.g. /blog
