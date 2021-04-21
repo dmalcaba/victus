@@ -3,5 +3,12 @@
 {% include head.html %}
   <body>
      {{ content }}
+
+     <ul>
+      {% assign mypages = site.pages | sort: "order" %}
+        {% for page in mypages %}
+        <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+        {% endfor %}
+    </ul>
   </body>
 </html>

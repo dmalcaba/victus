@@ -1,6 +1,7 @@
 ---
-title: Victus, a Jekyll theme
+title: Home
 layout: default
+order: 1
 ---
 
 # {{ page.title }}
