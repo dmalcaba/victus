@@ -10,49 +10,7 @@
 
         <div class="blog-holder">
 
-            {% for post in site.posts %}
-            <article
-                class="blog-item-holder animate post-25762 post type-post status-publish format-standard has-post-thumbnail hentry show-it">
-                <div class="entry-holder animate show-it">
-                    <div class="entry-info">
-                        <div class="entry-date published">{{ post.date | date: "%b %-d, %Y" }}</div>
-                    </div>
-                    <h2 class="entry-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                </div>
-                <div class="post-thumbnail">
-                    <div class="blog-featured-image-holder" style="background-image: url({{ post.image }});"></div>
-                </div>
-            </article>
-            {% endfor %}
-
-            <article
-                class="blog-item-holder animate post-25749 post type-post status-publish format-standard has-post-thumbnail hentry category-brainer category-en tag-community tag-developer-relations tag-meilisearch tag-open-source tag-search-engine show-it">
-                <div class="entry-holder animate show-it">
-                    <div class="entry-info">
-                        <div class="entry-date published">2020-11-11</div>
-                    </div>
-                    <h2 class="entry-title"><a href="#">I’m joining MeiliSearch as their Director of Developer
-                            Relations</a></h2>
-                </div>
-                <div class="post-thumbnail">
-                    <div class="blog-featured-image-holder" style="background-image: url(/assets/img/meilisearch.png);">
-                    </div>
-                </div>
-            </article>
-
-            <article
-                class="blog-item-holder animate post-25733 post type-post status-publish format-standard has-post-thumbnail hentry category-brainer category-en category-evergreen tag-buddhism tag-impermanence tag-life show-it">
-                <div class="entry-holder animate show-it active-post">
-                    <div class="entry-info">
-                        <div class="entry-date published">2020-10-19</div>
-                    </div>
-                    <h2 class="entry-title"><a href="#">Nothing Is Permanent</a></h2>
-                </div>
-                <div class="post-thumbnail">
-                    <div class="blog-featured-image-holder"
-                        style="background-image: url(/assets/img/austin-chan-ukzHlkoz1IE-unsplash-scaled.jpg);"></div>
-                </div>
-            </article>
+            {% include anotte/paginator.html %}
 
             {% include anotte/pagination.html %}
 

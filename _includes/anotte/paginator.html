@@ -1,0 +1,14 @@
+{% for post in paginator.posts %}
+<article
+    class="blog-item-holder animate post-25762 post type-post status-publish format-standard has-post-thumbnail hentry show-it">
+    <div class="entry-holder animate show-it">
+        <div class="entry-info">
+            <div class="entry-date published">{{ post.date | date: "%b %-d, %Y" }}</div>
+        </div>
+        <h2 class="entry-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    </div>
+    <div class="post-thumbnail">
+        <div class="blog-featured-image-holder" style="background-image: url(/assets/img/{{ post.image }});"></div>
+    </div>
+</article>
+{% endfor %}

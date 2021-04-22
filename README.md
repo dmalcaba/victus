@@ -27,3 +27,11 @@ Uses Bootstrap and Font-Awesome
 ### Footer Urls
 
 The footers will show up if a URL and Title is specified
+
+### To dos
+
+- [x] Previous / Next  -- see minimal mistakes example
+- [x] Fix pagination - current state
+- [ ] Add tag page
+- [ ] Add category page
+- [x] Add more examples to test pagination -- just copy + paste

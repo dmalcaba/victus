@@ -1,0 +1,44 @@
+---
+layout: anotte/blog
+---
+
+<article
+    class="post type-post status-publish format-standard has-post-thumbnail hentry">
+    <div class="single-post-header-content center-relative">
+        <img width="1000" height="1000" src="/assets/img/{{ page.image }}" class="attachment-full size-full wp-post-image" alt=""
+            loading="lazy" aria-label="">
+            {% if page.credits.url and page.credits.caption %}
+            <a href="{{page.credits.url}}" class="img-caption" target="_blank">{{page.credits.caption}}</a>
+            <span class="imgdesc"></span>
+            {% endif %}
+    </div>
+    <div class="post-wrapper center-relative">
+        <div class="single-content-wrapper content-960 center-relative">
+            <h1 class="entry-title">{{ page.title }}</h1>
+
+            <div class="published-date">
+                <span class="fas fa-clock" title="published"></span>
+                <span>{{ page.date | date: "%b %-d, %Y" }}</span>
+            </div>
+            <div class="last-updated">
+                <span class="fas fa-history" title="last updated"></span>
+                <span>{{ page.date | date: "%b %-d, %Y" }}</span>
+            </div>
+
+            <div class="time-reading">
+                <span class="fas fa-stopwatch" title="reading time"></span>
+                <span class="span-reading-time rt-reading-time"><span class="rt-label rt-prefix"></span>
+                    <span class="rt-time"> 2</span> <span class="rt-label rt-postfix">minutes</span></span>
+            </div>
+
+            {% include anotte/tags.html %}
+
+            <div class="entry-content">
+                {{ content }}
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </div>
+
+</article>

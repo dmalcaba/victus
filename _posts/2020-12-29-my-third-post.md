@@ -1,6 +1,9 @@
 ---
 title: My Third Post
-image: /assets/img/pawel-czerwinski-3k9PGKWt7ik-unsplash-scaled.jpg
+image: pawel-czerwinski-3k9PGKWt7ik-unsplash-scaled.jpg
+credits:
+  caption: Test
+  url: http://test.com
 ---
 
 # {{ page.title }}

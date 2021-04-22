@@ -2,16 +2,20 @@
 <div class="menu-left-part no-sidebar">
 
     <nav id="header-main-menu" class="big-menu">
-        <ul id="menu-menu" class="main-menu sm sm-clean" data-smartmenus-id="16191052643642522">
-            <li id="menu-item-4497"
-                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-4497">
-                <a href="/" class="current">home</a></li>
-            <li id="menu-item-20157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20157"><a
-                    href="/speaking/">speaking</a></li>
-            <li id="menu-item-4498" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4498"><a
-                    href="/about/">about</a></li>
-            <li id="menu-item-20457" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20457"><a
-                    href="mailto:someone@gmail.com">contact</a></li>
+        <ul id="menu-menu" class="main-menu sm sm-clean">
+            <li id="menu-item-1"
+                class="menu-item">
+                <a href="/">home</a>
+            </li>
+            <li id="menu-item-2" class="menu-item">
+                <a href="/speaking/">speaking</a>
+            </li>
+            <li id="menu-item-3" class="menu-item">
+                <a href="/about/">about</a>
+            </li>
+            <li id="menu-item-4" class="menu-item">
+                <a href="mailto:someone@gmail.com">contact</a>
+            </li>
         </ul>
         <form role="search" method="get" class="search-form" action="#/">
             <label>
@@ -22,8 +26,8 @@
     </nav>
 
     <div class="menu-right-text">
-        <p class="menu-text-title">HELLO, I'M FRED!</p>
-        <div class="menu-text">welcome in my head </div>
+        <p class="menu-text-title">HELLO, I'M {{ site.firstname | upcase }}!</p>
+        <div class="menu-text">{{ site.greetings }} </div>
         <br>
         <br>
         <a class="socail-text" href="https://twitter.com/" target="_blank" rel="noopener"><span

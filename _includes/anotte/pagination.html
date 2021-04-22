@@ -1,11 +1,33 @@
-<div class="pgntn-page-pagination">
+<div class='pgntn-page-pagination'>
     <div class="pgntn-page-pagination-block">
-        <span aria-current="page" class="page-numbers current">1</span>
-        <a rel="nofollow" class="page-numbers" href="#/page/2/">2</a>
-        <a rel="nofollow" class="page-numbers" href="#/page/3/">3</a>
-        <span class="page-numbers dots">…</span>
-        <a rel="nofollow" class="page-numbers" href="#/page/110/">110</a>
-        <a rel="nofollow" class="next page-numbers" href="#/2/">Next »</a>							
+        
+        {% if paginator.total_pages != 1 %}
+            {% if paginator.previous_page %}
+            {% if paginator.previous_page == 1 %}
+            <a href="/">Prev</a>
+            {% else %}
+            <a rel="nofollow" class="prev page-numbers" href="/page{{ paginator.previous_page }}">« Previous</a>
+            {% endif %}
+            {% endif %}
+
+            {% if paginator.page == 1 %}
+            <span aria-current="page" class="page-numbers current">1</span>
+            {% else %}
+            <a rel="nofollow" class="page-numbers" href="/">1</a>
+            {% endif %}
+
+            {% for count in (2..paginator.total_pages) %}
+            {% if count == paginator.page %}
+            <span aria-current="page" class="page-numbers current">{{ count }}</span>
+            {% else %}
+            <a rel="nofollow" class="page-numbers" href="/page{{ count }}">{{ count }}</a>
+            {% endif %}
+            {% endfor %}
+
+            {% if paginator.next_page %}
+            <a rel="nofollow" class="next page-numbers" href="/page{{ paginator.next_page }}">Next »</a>
+            {% endif %}
+        {% endif %}
     </div>
     <div class="clear"></div>
 </div>

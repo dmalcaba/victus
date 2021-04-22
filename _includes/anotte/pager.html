@@ -1,0 +1,13 @@
+<div class="nav-links">
+    {% if page.previous.url %}
+    <a class="nav-previous tooltip" data-title="{{ page.previous.title }}"
+        href="{{ page.previous.url | relative_url }}">
+        <span class="fa fa-chevron-left" aria-hidden="true"></span>
+    </a>
+    {% endif %}
+    {% if page.next.url %}
+    <a class="nav-next tooltip" data-title="{{ page.next.title }}" href="{{ page.next.url | relative_url }}">
+        <span class="fa fa-chevron-right" aria-hidden="true"></span>
+    </a>
+    {% endif %}
+</div>

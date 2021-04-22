@@ -1,6 +1,10 @@
 title: Victus # site title
 description: A Jekyll theme # description added to the head
 
+# Sidebar variables
+firstname: Darryl
+greetings: welcome to my world
+
 name: Victus
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -36,4 +40,11 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "home"
+      layout: "anotte/post"
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+
+plugins:
+  - jekyll-paginate

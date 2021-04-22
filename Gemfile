@@ -9,3 +9,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 3.8.6"
+
+group :jekyll_plugins do
+    gem "jekyll-paginate", "~> 1.1"
+end
