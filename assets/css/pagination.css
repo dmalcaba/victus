@@ -1,0 +1,61 @@
+.pgntn-page-pagination {
+    text-align: center !important;
+}
+
+.pgntn-page-pagination-block {
+    width: 100% !important;
+    padding: 0 0 0 0;
+    margin: 0 auto;
+    float: right;
+}
+
+.pgntn-page-pagination a {
+    color: #7f7f7f !important;
+    background-color: #ffffff !important;
+    text-decoration: none !important;
+    border: none !important;
+}
+
+.pgntn-page-pagination a:hover {
+    color: #000 !important;
+}
+
+.pgntn-page-pagination-intro,
+.pgntn-page-pagination .current {
+    background-color: #efefef !important;
+    color: #000 !important;
+    border: none !important;
+}
+
+.archive #nav-above,
+.archive #nav-below,
+.search #nav-above,
+.search #nav-below,
+.blog #nav-below,
+.blog #nav-above,
+.navigation.paging-navigation,
+.navigation.pagination,
+.pagination.paging-pagination,
+.pagination.pagination,
+.pagination.loop-pagination,
+.bicubic-nav-link,
+#page-nav,
+.camp-paging,
+#reposter_nav-pages,
+.unity-post-pagination,
+.wordpost_content .nav_post_link,
+.page-link,
+.post-nav-links,
+.page-links,
+#comments .navigation,
+#comment-nav-above,
+#comment-nav-below,
+#nav-single,
+.navigation.comment-navigation,
+comment-pagination {
+    display: none !important;
+}
+
+.single-gallery .pagination.gllrpr_pagination {
+    display: block !important;
+}

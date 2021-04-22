@@ -1,5 +1,6 @@
 ---
 title: My First Post
+image: /assets/img/meilisearch.png
 ---
 
 # {{ page.title }}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+{% include anotte/head.html %}
+
+<body class="home blog wait-preloader chrome windows">
+
+  <div class="site-wrapper">
+    <div class="doc-loader">
+    </div>
+
+    {% include anotte/sidebar.html %}
+
+    {% include anotte/pagecontent.html %}
+
+    {{ content }}
+
+  </div>
+
+  {% include anotte/foot.html %}
+
+</body>
+
+</html>

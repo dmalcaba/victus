@@ -1,5 +1,6 @@
 ---
 title: My Second Post
+image: /assets/img/hermes-rivera-ahHn48-zKWo-unsplash-scaled.jpg
 ---
 
 # {{ page.title }}

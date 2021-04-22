@@ -1,5 +1,6 @@
 ---
 title: My Third Post
+image: /assets/img/pawel-czerwinski-3k9PGKWt7ik-unsplash-scaled.jpg
 ---
 
 # {{ page.title }}
