@@ -1,9 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--
+  Victus Jekyll Theme 0.0.1 by Darryl Malcaba
+  Copyright 2021 Darryl Malcaba
+  Free for personal and commercial use under the MIT license
+  https://github.com/dmalcaba/victus/blob/main/LICENSE
+-->
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 {% include head.html %}
   <body>
      {% include header.html %}
 
-     {{ content }}
+     <main>
+      {{ content }}
+     </main>
+
   </body>
 </html>
