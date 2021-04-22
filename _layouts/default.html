@@ -2,13 +2,8 @@
 <html lang="en">
 {% include head.html %}
   <body>
-     {{ content }}
+     {% include header.html %}
 
-     <ul>
-      {% assign mypages = site.pages | sort: "order" %}
-        {% for page in mypages %}
-        <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-        {% endfor %}
-    </ul>
+     {{ content }}
   </body>
 </html>
