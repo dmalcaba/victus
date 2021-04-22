@@ -1,6 +1,5 @@
 ---
 title: My Second Post
-layout: default
 ---
 
 # {{ page.title }}
