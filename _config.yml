@@ -1,5 +1,6 @@
 title: Victus # site title
 description: A Jekyll theme # description added to the head
+permalink: ':title/'
 
 # Sidebar variables
 firstname: Darryl
