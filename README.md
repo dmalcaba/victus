@@ -15,7 +15,7 @@ Uses Bootstrap and Font-Awesome
 
 ### Running the Site Locally
 
-`$ docker run -d --name victus --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll:3.8 jekyll serve --watch --drafts`
+`$ docker run -d --name victus --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll:3.8 jekyll serve --config _config.yml,_config_dev.yml --watch --drafts`
 
 
 ## Configuration
