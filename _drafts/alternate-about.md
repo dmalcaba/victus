@@ -1,0 +1,3 @@
+---
+layout: anotte/about
+---
