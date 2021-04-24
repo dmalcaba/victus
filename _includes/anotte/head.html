@@ -1,6 +1,6 @@
 <head>
     <meta charset="utf-8">
-    <title>Test</title>
+	<title>{% if page.title %}{{site.title}} | {{page.title}}{% else %}{{site.title}}{% endif %}</title>
     <style type="text/css">
         .single .site-wrapper .nav-links>a:hover {
             background-color: #eeee22;
