@@ -2,7 +2,7 @@
 <div class="tags-holder">
     <span class="fas fa-tag" title="tags"></span>
         {% for tag in page.tags %}
-        <a href="{{site.baseurl}}/tags#{{ tag | downcase }}" rel="tag">{{ tag }}</a>{% if page.tags.last != tag %},{% endif %}
+        <a href="{{site.baseurl}}/tags#{{ tag | downcase }}" rel="tag">{{ tag }}</a>
         {% endfor %}
 </div>
 {% endif %}
