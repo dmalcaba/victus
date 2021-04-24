@@ -1,12 +1,10 @@
 ---
-title: My Third Post
-image: pawel-czerwinski-3k9PGKWt7ik-unsplash-scaled.jpg
+image: jennifer-schmidt-zOlQ7lF-3vs-unsplash.jpg
 credits:
-  caption: Test
-  url: http://test.com
+  caption: Jennifer Schmidt
+  url: https://unsplash.com/@jsfoodphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+tag: [asian, noodles]
 ---
-
-# {{ page.title }}
 
 ## Ingredients
 

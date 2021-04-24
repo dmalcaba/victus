@@ -1,6 +1,9 @@
 ---
 title: Sample Draft Post
-image: pawel-czerwinski-3k9PGKWt7ik-unsplash-scaled.jpg
+image: jennifer-schmidt-zOlQ7lF-3vs-unsplash.jpg
+credits:
+  caption: Jennifer Schmidt
+  url: https://unsplash.com/@jsfoodphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 tag: [Community, Developer Relations, MeiliSearch, Open Source, Search Engine]
 ---
 
