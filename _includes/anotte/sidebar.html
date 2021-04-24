@@ -3,15 +3,27 @@
 
     <nav id="header-main-menu" class="big-menu">
         <ul id="menu-menu" class="main-menu sm sm-clean">
-            <li id="menu-item-1"
-                class="menu-item">
+            <li id="menu-item-1" class="menu-item">
                 <a href="{{site.baseurl}}">home</a>
             </li>
-            <!-- <li id="menu-item-2" class="menu-item">
-                <a href="/speaking/">speaking</a>
-            </li> -->
+            <li id="menu-item-2"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-167"><a
+                    href="#" class="has-submenu" id="sm-1619287343615923-1" aria-haspopup="true"
+                    aria-controls="sm-1619287343615923-2" aria-expanded="false"><span class="sub-arrow">+</span><span
+                        class="sub-arrow">+</span>archive</a>
+                <ul class="sub-menu" id="sm-1619287343615923-2" role="group" aria-hidden="false"
+                    aria-labelledby="sm-1619287343615923-1">
+                    <li id="menu-item-168"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168">
+                        <a href="{{ "tags" | relative_url}}">tags</a></li>
+                    <li id="menu-item-221"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-221"><a
+                            href="#">categories</a></li>
+                </ul>
+            </li>
+
             <li id="menu-item-3" class="menu-item">
-                <a href="{{ "/about" | relative_url}}">about</a>
+                <a href="{{ "about" | relative_url}}">about</a>
             </li>
             <li id="menu-item-4" class="menu-item">
                 <a href="mailto:someone@gmail.com">contact</a>
@@ -27,7 +39,8 @@
 
     <div class="menu-right-text">
         <p class="menu-text-title">HELLO, I'M {{ site.firstname | upcase }}!</p>
-        <div class="menu-text">{{ site.greetings }} </div>
+        <div class="menu-text">{{ site.greetings }}. click <a href="{{ "about" | relative_url}}">here</a> if you want
+            to know more.</div>
         <br>
         <br>
         <a class="socail-text" href="https://twitter.com/" target="_blank" rel="noopener"><span
