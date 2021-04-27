@@ -1823,7 +1823,7 @@ div.wpcf7 .ajax-loader {
         left: 0;
         top: calc(50% - 70px);
         position: absolute;
-        background-image: url(/assets/img/quotes_image.png);
+        background-image: url(../img/quotes_image.png);
         background-size: cover;
         width: 140px;
         height: 110px;

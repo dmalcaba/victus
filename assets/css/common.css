@@ -304,7 +304,7 @@ blockquote:not(.cocobasic-block-pullquote):before {
     left: 0;
     top: calc(50% - 70px);
     position: absolute;
-    background-image: url(../images/quotes_image.png);
+    background-image: url(../img/quotes_image.png);
     background-size: cover;
     width: 140px;
     height: 110px;
