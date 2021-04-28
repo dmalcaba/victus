@@ -19,6 +19,8 @@ These are header examples
 
 ##### Header 5
 
+###### Header 6
+
 ---
 # Lists
 
