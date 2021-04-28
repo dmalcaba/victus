@@ -10,6 +10,7 @@ $primary-link-hover-color: #acacac;
 
 $primary-font-family: 'Poppins', sans-serif;
 
+@import "pagination";
 
 %header-shared {
     padding: 20px 0;
@@ -164,9 +165,12 @@ body {
     }
 }
 
+.with-top-margin {
+    margin-top: 75px;
+}
+
 .site-content {
     position: relative;
-    margin-top: 75px;
 }
 
 .site-wrapper {
