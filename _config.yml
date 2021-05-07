@@ -11,6 +11,9 @@ name: Victus
 baseurl: "/victus" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Enter your Google Analytics web tracking code (starts with UA-* or G-* if using GA4)
+google_analytics: G-EPSSK79JX4
+
 # Site Footer
 footer:
   links:
